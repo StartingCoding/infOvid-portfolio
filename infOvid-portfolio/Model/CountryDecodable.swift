@@ -1,9 +1,8 @@
 //
-//  CountryDecodable.swift
-//  infOvid
+//  infOvid_portfolioApp.swift
+//  infOvid-portfolio
 //
-//  Created by Loris on 5/25/20.
-//  Copyright © 2020 Loris. All rights reserved.
+//  Created by Loris on 12/9/20.
 //
 
 import Foundation
