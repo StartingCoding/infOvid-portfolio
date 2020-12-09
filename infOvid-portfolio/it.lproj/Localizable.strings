@@ -1,0 +1,35 @@
+/* 
+  Localizable.strings
+  infOvid-portfolio
+
+  Created by Loris on 12/9/20.
+  
+*/
+
+"italyTabBar" = "Italia";
+"regionsTabBar" = "Regioni";
+"italyTitle" = "🇮🇹 Italia";
+"regionsTitle" = "📍 Regioni";
+
+"dataUpdate" = "Dati aggiornati il:";
+"dataUpdateSecond" = "alle";
+
+"downloadRecentData" = "Download Dati Recenti";
+"personalPreference" = "Personali";
+
+"newPositive" = "Nuovi Postivi:";
+"changeTotalPositive" = "Variazione Totale Positivi:";
+"intensiveCare" = "Terapia Intensiva:";
+"homeIsolation" = "Isolamento Domiciliare:";
+"totalPositive" = "Totale Positivi:";
+"totalHospitalized" = "Totale Ospedalizzati:";
+"hospitalizedWithSymptoms"= "Ricoverati con Sintomi:";
+"dischargedHealed" = "Dimessi Guariti:";
+"deads" = "Deceduti:";
+"totalCases" = "Totale Casi:";
+"swabs" = "Tamponi:";
+
+"tested" = "Casi Testati:";
+"regionNumber" = "Codice Regione:";
+"lat" = "Latitudine:";
+"long" = "Longitudine:";

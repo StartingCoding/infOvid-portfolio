@@ -1,0 +1,35 @@
+/* 
+  Localizable.strings
+  infOvid-portfolio
+
+  Created by Loris on 12/9/20.
+  
+*/
+
+"italyTabBar" = "Italy";
+"regionsTabBar" = "Regions";
+"italyTitle" = "🇮🇹 Italy";
+"regionsTitle" = "📍 Regions";
+
+"dataUpdate" = "Data updated:";
+"dataUpdateSecond" = "at";
+
+"downloadRecentData" = "Download Recent Data";
+"personalPreference" = "Personal";
+
+"newPositive" = "New Positive:";
+"changeTotalPositive" = "Change Total Positive:";
+"intensiveCare" = "Intensive Care:";
+"homeIsolation" = "Home Isolation:";
+"totalPositive" = "Total Positive:";
+"totalHospitalized" = "Total Hospitalized:";
+"hospitalizedWithSymptoms"= "Hospitalized With Symptoms:";
+"dischargedHealed" = "Discharged Healed:";
+"deads" = "Deads:";
+"totalCases" = "Total Cases:";
+"swabs" = "Swabs:";
+
+"tested" = "Tested:";
+"regionNumber" = "Region Code:";
+"lat" = "Latitude:";
+"long" = "Longitude:";
