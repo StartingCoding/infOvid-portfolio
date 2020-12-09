@@ -21,8 +21,6 @@ struct CountryDecodable: Decodable {
         case newPositive = "nuoviPositivi"
         case dischargedHealed = "dimessiGuariti"
         case deads = "deceduti"
-        case positiveFromClinicalActivity = "casiDaSospettoDiagnostico"
-        case positiveFromScreening = "casiDaScreening"
         case totalCases = "totaleCasi"
         case swabs = "tamponi"
         case note = "note"
@@ -39,13 +37,11 @@ struct CountryDecodable: Decodable {
     var newPositive: Int
     var dischargedHealed: Int
     var deads: Int
-    var positiveFromClinicalActivity: Int
-    var positiveFromScreening: Int
     var totalCases: Int
     var swabs: Int
     var note: String
     
-    static let `default` = CountryDecodable(date: "", state: "", hospitalizedWithSymptoms: 0, intensiveCare: 0, totalHospitalized: 0, homeIsolation: 0, totalPositive: 0, changeTotalPositive: 0, newPositive: 0, dischargedHealed: 0, deads: 0, positiveFromClinicalActivity: 0, positiveFromScreening: 0, totalCases: 0, swabs: 0, note: "")
+    static let `default` = CountryDecodable(date: "", state: "", hospitalizedWithSymptoms: 0, intensiveCare: 0, totalHospitalized: 0, homeIsolation: 0, totalPositive: 0, changeTotalPositive: 0, newPositive: 0, dischargedHealed: 0, deads: 0, totalCases: 0, swabs: 0, note: "")
     
     
     struct RegionDecodable: Decodable {
@@ -67,8 +63,6 @@ struct CountryDecodable: Decodable {
             case newPositive = "nuoviPositivi"
             case dischargedHealed = "dimessiGuariti"
             case deads = "deceduti"
-            case positiveFromClinicalActivity = "casiDaSospettoDiagnostico"
-            case positiveFromScreening = "casiDaScreening"
             case totalCases = "totaleCasi"
             case swabs = "tamponi"
             case note = "note"
@@ -90,13 +84,11 @@ struct CountryDecodable: Decodable {
         var newPositive: Int
         var dischargedHealed: Int
         var deads: Int
-        var positiveFromClinicalActivity: Int
-        var positiveFromScreening: Int
         var totalCases: Int
         var swabs: Int
         var note: String?
         
-        static let `default` = RegionDecodable(regionNumber: 0, regionName: "", lat: 0.0, long: 0.0, tested: 0, date: "", state: "", hospitalizedWithSymptoms: 0, intensiveCare: 0, totalHospitalized: 0, homeIsolation: 0, totalPositive: 0, changeTotalPositive: 0, newPositive: 0, dischargedHealed: 0, deads: 0, positiveFromClinicalActivity: 0, positiveFromScreening: 0, totalCases: 0, swabs: 0, note: "")
+        static let `default` = RegionDecodable(regionNumber: 0, regionName: "", lat: 0.0, long: 0.0, tested: 0, date: "", state: "", hospitalizedWithSymptoms: 0, intensiveCare: 0, totalHospitalized: 0, homeIsolation: 0, totalPositive: 0, changeTotalPositive: 0, newPositive: 0, dischargedHealed: 0, deads: 0, totalCases: 0, swabs: 0, note: "")
     }
 }
 
