@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		AB4FC7E62580E16600FCFB0A /* infOvid_portfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4FC7E52580E16600FCFB0A /* infOvid_portfolioApp.swift */; };
-		AB4FC7E82580E16600FCFB0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4FC7E72580E16600FCFB0A /* ContentView.swift */; };
 		AB4FC7EA2580E16700FCFB0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4FC7E92580E16700FCFB0A /* Assets.xcassets */; };
 		AB4FC7ED2580E16700FCFB0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4FC7EC2580E16700FCFB0A /* Preview Assets.xcassets */; };
 		AB9AC6612580E2F8004B8BB6 /* CountryDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9AC65F2580E2F8004B8BB6 /* CountryDecodable.swift */; };
 		AB9AC6622580E2F8004B8BB6 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9AC6602580E2F8004B8BB6 /* Country.swift */; };
+		AB9AC66A2580E402004B8BB6 /* RegionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9AC6662580E402004B8BB6 /* RegionRow.swift */; };
+		AB9AC66B2580E402004B8BB6 /* ItalyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9AC6672580E402004B8BB6 /* ItalyView.swift */; };
+		AB9AC66C2580E402004B8BB6 /* RegionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9AC6682580E402004B8BB6 /* RegionDetail.swift */; };
+		AB9AC66D2580E402004B8BB6 /* RegionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9AC6692580E402004B8BB6 /* RegionList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB4FC7E22580E16600FCFB0A /* infOvid-portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "infOvid-portfolio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4FC7E52580E16600FCFB0A /* infOvid_portfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infOvid_portfolioApp.swift; sourceTree = "<group>"; };
-		AB4FC7E72580E16600FCFB0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB4FC7E92580E16700FCFB0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB4FC7EC2580E16700FCFB0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB4FC7EE2580E16700FCFB0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB9AC65F2580E2F8004B8BB6 /* CountryDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDecodable.swift; sourceTree = "<group>"; };
 		AB9AC6602580E2F8004B8BB6 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		AB9AC6662580E402004B8BB6 /* RegionRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionRow.swift; sourceTree = "<group>"; };
+		AB9AC6672580E402004B8BB6 /* ItalyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItalyView.swift; sourceTree = "<group>"; };
+		AB9AC6682580E402004B8BB6 /* RegionDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionDetail.swift; sourceTree = "<group>"; };
+		AB9AC6692580E402004B8BB6 /* RegionList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,7 @@
 			children = (
 				AB4FC7E52580E16600FCFB0A /* infOvid_portfolioApp.swift */,
 				AB9AC65E2580E2F8004B8BB6 /* Model */,
-				AB4FC7E72580E16600FCFB0A /* ContentView.swift */,
+				AB9AC6652580E402004B8BB6 /* View */,
 				AB4FC7E92580E16700FCFB0A /* Assets.xcassets */,
 				AB4FC7EE2580E16700FCFB0A /* Info.plist */,
 				AB4FC7EB2580E16700FCFB0A /* Preview Content */,
@@ -81,6 +87,17 @@
 				AB9AC6602580E2F8004B8BB6 /* Country.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		AB9AC6652580E402004B8BB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB9AC6662580E402004B8BB6 /* RegionRow.swift */,
+				AB9AC6672580E402004B8BB6 /* ItalyView.swift */,
+				AB9AC6682580E402004B8BB6 /* RegionDetail.swift */,
+				AB9AC6692580E402004B8BB6 /* RegionList.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,10 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB9AC66B2580E402004B8BB6 /* ItalyView.swift in Sources */,
+				AB9AC66C2580E402004B8BB6 /* RegionDetail.swift in Sources */,
 				AB9AC6622580E2F8004B8BB6 /* Country.swift in Sources */,
-				AB4FC7E82580E16600FCFB0A /* ContentView.swift in Sources */,
+				AB9AC66D2580E402004B8BB6 /* RegionList.swift in Sources */,
 				AB4FC7E62580E16600FCFB0A /* infOvid_portfolioApp.swift in Sources */,
 				AB9AC6612580E2F8004B8BB6 /* CountryDecodable.swift in Sources */,
+				AB9AC66A2580E402004B8BB6 /* RegionRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.loris.infOvid-portfolio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,7 +338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.loris.infOvid-portfolio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
