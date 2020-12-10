@@ -13,7 +13,11 @@ When I found out that there wasn't any good mobile resources to see this importa
 
 [Link of Github with official JSON data](https://github.com/pcm-dpc/COVID-19)
 
+<<<<<<< HEAD
 ![Italy and Regions Views From Website](infOvid-readme-asset/website-screens.png)
+=======
+## What technologies I used
+>>>>>>> 6173e74b1127783b9b94b6b689d8cd5a62329915
 
 ## How it is built
 
