@@ -4,9 +4,7 @@
 
 This is an app that let you stay up to date with the daily numbers of Covid cases in Italy.
 
-![Italy View](infOvid-readme-asset/italy-view.png)
-![Regions List View](infOvid-readme-asset/regions-list-personal.png)
-![Region Detail View](infOvid-readme-asset/region-detail.png)
+![Italy View](infOvid-readme-asset/infOvid-screens.png)
 
 ## Why i built this app
 
